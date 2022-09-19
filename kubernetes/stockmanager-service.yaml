@@ -19,7 +19,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: stockmanager
-spec:
   spec:
   selector:
     matchLabels:
